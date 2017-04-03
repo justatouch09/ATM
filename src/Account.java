@@ -5,6 +5,7 @@ public class Account {
     String name;
     String menuEntry;
     String withdrawal;
+    //double balance = 100;
 
     public void getName() throws Exception {
         System.out.println("Enter Account Name.");
@@ -45,7 +46,7 @@ public class Account {
         }else if (menuEntry.contains("3")) {
             System.out.println("Thank you and please come again!");
         } else {
-            throw new Exception("INvalid selection");
+            throw new Exception("Invalid selection");
         }
     }
 }
